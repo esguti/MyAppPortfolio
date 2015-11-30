@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfeaf1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.portfolio.course.esguti.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/txt_portfolioTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="My Nanodegree Apps!"
+        android:textColor="#37474f"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/abc_text_size_headline_material" />
+
+    <Button
+        android:id="@+id/btn_spotifyStreamer"
+        style="@style/Button"
+        android:layout_below="@+id/txt_portfolioTitle"
+        android:layout_marginTop="33dp"
+        android:onClick="run_spotifyStreamer"
+        android:text="Spotify Streamer" />
+
+    <Button
+        android:id="@+id/btn_scoresApp"
+        style="@style/Button"
+        android:layout_below="@+id/btn_spotifyStreamer"
+        android:onClick="run_scoresApp"
+        android:text="Scores App" />
+
+    <Button
+        android:id="@+id/btn_libraryApp"
+        style="@style/Button"
+        android:layout_below="@+id/btn_scoresApp"
+        android:onClick="run_libraryApp"
+        android:text="Library App" />
+
+    <Button
+        android:id="@+id/btn_buildItBigger"
+        style="@style/Button"
+        android:layout_below="@+id/btn_libraryApp"
+        android:onClick="run_buildItBigger"
+        android:text="Build It Bigger" />
+
+    <Button
+        android:id="@+id/btn_xyzReader"
+        style="@style/Button"
+        android:layout_below="@+id/btn_buildItBigger"
+        android:onClick="run_xyzReader"
+        android:text="XYZ Reader" />>
+
+    <Button
+        android:id="@+id/btn_capstone"
+        style="@style/Button"
+        android:layout_below="@+id/btn_xyzReader"
+        android:background="#d50000"
+        android:onClick="run_capstone"
+        android:text="Capstone: My Own App" />
+
+</RelativeLayout>
