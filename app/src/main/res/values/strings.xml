@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">MyAppPortfolio</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">My App Portfolio</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_title">My Nanodegree Apps!</string>
+    <string name="btn_spotify">Spotify Streamer</string>
+    <string name="btn_ScoresApp">Scores App</string>
+    <string name="btn_LibraryApp">Library App</string>
+    <string name="btn_BuildItBigger">Build It Bigger</string>
+    <string name="btn_XYZReader">XYZ Reader</string>
+    <string name="btn_Capstone">Capstone: My Own App</string>
 </resources>

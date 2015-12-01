@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffdfeaf1"
+    android:background="@color/colorFrmBack"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -21,8 +21,8 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:text="My Nanodegree Apps!"
-        android:textColor="#37474f"
+        android:text="@string/app_title"
+        android:textColor="@color/colorAppText"
         android:textIsSelectable="true"
         android:textSize="@dimen/abc_text_size_headline_material" />
 
@@ -32,42 +32,42 @@
         android:layout_below="@+id/txt_portfolioTitle"
         android:layout_marginTop="33dp"
         android:onClick="run_spotifyStreamer"
-        android:text="Spotify Streamer" />
+        android:text="@string/btn_spotify" />
 
     <Button
         android:id="@+id/btn_scoresApp"
         style="@style/Button"
         android:layout_below="@+id/btn_spotifyStreamer"
         android:onClick="run_scoresApp"
-        android:text="Scores App" />
+        android:text="@string/btn_ScoresApp" />
 
     <Button
         android:id="@+id/btn_libraryApp"
         style="@style/Button"
         android:layout_below="@+id/btn_scoresApp"
         android:onClick="run_libraryApp"
-        android:text="Library App" />
+        android:text="@string/btn_LibraryApp" />
 
     <Button
         android:id="@+id/btn_buildItBigger"
         style="@style/Button"
         android:layout_below="@+id/btn_libraryApp"
         android:onClick="run_buildItBigger"
-        android:text="Build It Bigger" />
+        android:text="@string/btn_BuildItBigger" />
 
     <Button
         android:id="@+id/btn_xyzReader"
         style="@style/Button"
         android:layout_below="@+id/btn_buildItBigger"
         android:onClick="run_xyzReader"
-        android:text="XYZ Reader" />>
+        android:text="@string/btn_XYZReader" />>
 
     <Button
         android:id="@+id/btn_capstone"
         style="@style/Button"
         android:layout_below="@+id/btn_xyzReader"
-        android:background="#d50000"
+        android:background="@color/colorBtnCapstoneBack"
         android:onClick="run_capstone"
-        android:text="Capstone: My Own App" />
+        android:text="@string/btn_Capstone" />
 
 </RelativeLayout>
